@@ -1,0 +1,26 @@
+
+.movieContainer{
+    display: flex;
+    padding-top: 1vw;
+    width: 1300px;
+
+}
+
+.moviePoster{
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.movieCard{
+    width: 150px;
+    margin: 0 0.7vw;
+}
+.movieName{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.realisedDate{
+    color: #919191;
+}
