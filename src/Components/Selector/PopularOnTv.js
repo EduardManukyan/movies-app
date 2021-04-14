@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "./PopularOnTv.css"
+import "./PopularOnTvEndHteatreStyle.css"
 import {Link, Router} from "react-router-dom";
 import {baseGetRequest, baseImgUrl} from "../../httpServices"
 

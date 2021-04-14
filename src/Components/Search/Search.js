@@ -6,6 +6,7 @@ export default function Search(props) {
     return (
         <section style={{
             backgroundImage: "url(" + SearchBoxImage + ")",
+            paddingTop: "100px",
         }} className={"search-container"}>
             <div className={"container-first-part"}>
                 <div className={"container-second-part"}>

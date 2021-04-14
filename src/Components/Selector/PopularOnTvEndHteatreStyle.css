@@ -17,9 +17,12 @@
     margin: 0 0.7vw;
 }
 .movieName{
+    font-weight: 700;
+    color: #000;
+    font-size: 1em;
+    word-wrap: normal;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
+    text-decoration: none;
 }
 .realisedDate{
     color: #919191;

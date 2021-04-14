@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from "react";
-import "./PopularOnTv.css"
+import "./PopularOnTvEndHteatreStyle.css"
 import {Link,Router} from "react-router-dom";
 import {baseImgUrl} from "../../httpServices";
-// import {Link} from "react-router-dom";
 
 
 export default function PopularOnTv(props) {

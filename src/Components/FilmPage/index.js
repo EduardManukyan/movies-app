@@ -3,8 +3,7 @@ import {baseGetRequest, baseImgUrl} from "../../httpServices";
 import {useParams} from "react-router-dom";
 import {getTimeFromMinutes, convertNumberToCurrencies,createImgUrl} from "./helpers"
 import Icon from "./icon"
-import "./styles.css";
-
+import "../FilmPage/styles.css"
 const FilmPage = () => {
     const {id} = useParams();
     const [filmData, setFilmData] = useState(null);

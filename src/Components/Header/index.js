@@ -2,9 +2,8 @@ import React from "react";
 import {icons} from "./Icons";
 import "./style.css"
 import {NavLink} from "react-router-dom";
-// import {NavLink} from "react-router-dom";
 
-export default function Header(props) {
+export default function Header() {
     return (
         <header className={"header-container"}>
             <div className={"navbar-container"}>
